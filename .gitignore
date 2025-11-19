@@ -1,0 +1,75 @@
+# 构建目录
+build/
+build*/
+cmake-build-*/
+
+# Qt
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+*.autosave
+
+# C++ 编译产物
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# IDE
+.vscode/
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 运行时数据
+data/
+logs/
+screenshots/
+*.db
+*.db-shm
+*.db-wal
+
+# 临时文件
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# 打包文件
+*.zip
+*.tar.gz
+*_Package/
+
+# 测试输出
+test_*.txt
+build_*.txt
+compile_*.txt
+ninja_output.txt
